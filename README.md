@@ -9,3 +9,5 @@ kubectl create serviceaccount <serviceaccountname> --namespace=<namespacename> -
 
 kubectl create => is imperative 
 kubectl apply -f => is declarative
+
+> Cluster will be designed as per this stack: [healthcare-stack-design.md](healthcare-stack-design.md)
