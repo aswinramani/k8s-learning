@@ -1,5 +1,5 @@
-BASE_DIR="$(dirname "$0")/.."
-MANIFESTS_DIR="$BASE_DIR/manifests"
+BASE_DIR="$(dirname "$0")/../.."
+MANIFESTS_DIR="$BASE_DIR/manifests/rbac"
 RBAC_DEMO_MANIFEST_FILE="$MANIFESTS_DIR/rbac-demo.yaml"
 kubectl create namespace rbac-demo --dry-run=client -o yaml > "$RBAC_DEMO_MANIFEST_FILE"
 echo "---" >> "$RBAC_DEMO_MANIFEST_FILE"

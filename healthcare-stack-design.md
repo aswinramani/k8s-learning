@@ -36,3 +36,25 @@ Contains two components monitoring and gitops. Handles metrics collection, dashb
 
 Monitoring tools: Prometheus, Grafana 
 GitOps  tools: Argo CD, Flux
+
+---
+
+## Open Source & Licensing
+
+All tools are free when self-hosted. Zero cloud bills, zero subscriptions.
+
+| Tool | License | Cost |
+|------|---------|------|
+| Go | BSD | Free |
+| Java (GraalVM CE) | GPL | Free |
+| Quarkus | Apache 2.0 | Free |
+| Rust | MIT/Apache 2.0 | Free |
+| PostgreSQL | PostgreSQL License | Free |
+| MongoDB | SSPL | Free (self-hosted) |
+| MinIO | AGPL 3.0 | Free (self-hosted) |
+| RabbitMQ | Mozilla Public License | Free |
+| Prometheus | Apache 2.0 | Free |
+| Grafana | AGPL 3.0 | Free (self-hosted) |
+| Argo CD | Apache 2.0 | Free |
+| Flux | Apache 2.0 | Free |
+| minikube | Apache 2.0 | Free |
