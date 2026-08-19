@@ -1,0 +1,9 @@
+apiVersion: healthcare.io/v1
+kind: ClinicalDocument
+metadata:
+  name: patient-data
+  namespace: default
+spec:
+  patientId: "test-patient-1"
+  documentType: "ccda"
+  status: "queued"
