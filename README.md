@@ -18,3 +18,14 @@ talks to etcd directly.
 
 
 > Cluster will be designed as per this stack: [healthcare-stack-design.md](healthcare-stack-design.md)
+
+
+day 3 commands kustomize learning 
+
+mkdir -p kustomize/base
+mkdir -p kustomize/overlays/dev
+mkdir -p kustomize/overlays/prod
+kubectl create deployment nginx --image=nginx:latest --dry-run=client -o yaml > kustomize/base/deployment.yaml
+
+
+kubectl kustomize kustomize/overlays/dev
